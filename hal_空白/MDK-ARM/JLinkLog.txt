@@ -1,0 +1,36 @@
+
+T0E10 000:003 SEGGER J-Link V6.30d Log File (0001ms, 0004ms total)
+T0E10 000:003 DLL Compiled: Feb 16 2018 13:30:32 (0001ms, 0004ms total)
+T0E10 000:003 Logging started @ 2022-05-14 18:49 (0001ms, 0004ms total)
+T0E10 000:004 JLINK_SetWarnOutHandler(...) (0001ms, 0005ms total)
+T0E10 000:005 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Dec  2 2016 15:35:20
+Hardware: V9.20
+S/N: 269200585
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+TELNET listener socket opened on port 19021WEBSRV 
+Starting webserver (1593ms, 1598ms total)
+T0E10 000:005 WEBSRV Webserver running on local port 19080 (1593ms, 1598ms total)
+T0E10 000:005   returns O.K. (1593ms, 1598ms total)
+T0E10 001:598 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 1598ms total)
+T0E10 001:598 JLINK_TIF_GetAvailable(...) (0000ms, 1598ms total)
+T0E10 001:598 JLINK_SetErrorOutHandler(...) (0000ms, 1598ms total)
+T0E10 001:598 JLINK_ExecCommand("ProjectFile = "C:\Users\HXZP\Desktop\RP\code\hal_¿Õ°×\MDK-ARM\JLinkSettings.ini"", ...). Device "STM32F407VE" selected.  returns 0x00 (0093ms, 1691ms total)
+T0E10 001:693 JLINK_ExecCommand("Device = STM32F407ZETx", ...). Device "STM32F407VE" selected.  returns 0x00 (0005ms, 1696ms total)
+T0E10 001:698 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 1696ms total)
+T0E10 001:698 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 1696ms total)
+T0E10 001:698 JLINK_GetDLLVersion()  returns 63004 (0000ms, 1696ms total)
+T0E10 001:698 JLINK_GetFirmwareString(...) (0000ms, 1696ms total)
+T0E10 001:700 JLINK_GetDLLVersion()  returns 63004 (0000ms, 1696ms total)
+T0E10 001:700 JLINK_GetCompileDateTime() (0000ms, 1696ms total)
+T0E10 001:702 JLINK_GetFirmwareString(...) (0000ms, 1696ms total)
+T0E10 001:710 JLINK_GetHardwareVersion()  returns 0x16760 (0000ms, 1696ms total)
+T0E10 001:725 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0001ms, 1697ms total)
+T0E10 001:726 JLINK_SetSpeed(5000) (0000ms, 1697ms total)
+T0E10 001:726 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0xC8 JTAG>STM32 (connect): Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0xC8 JTAG>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.RESET (pin 15) high, but should be low. Please check target hardware. >0x2F8 JTAG>
+TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0xC8 JTAG>STM32 (connect): Can not attach to CPU. Trying connect under reset.RESET (pin 15) high, but should be low. Please check target hardware. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0xC8 JTAG>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed. (0901ms, 2598ms total)
+T0E10 008:760 JLINK_Close() (0010ms, 2608ms total)
+T0E10 008:760  (0010ms, 2608ms total)
+T0E10 008:760 Closed (0010ms, 2608ms total)
