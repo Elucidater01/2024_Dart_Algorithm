@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.html": "html",
+        "vision_sensor.h": "c",
+        "string.h": "c"
+    }
+}
