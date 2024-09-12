@@ -14,6 +14,7 @@
 >Vision_Code  
 >>katrin openvino  网络推理所需文件  
 >>mouse                屏幕辅助对位部分代码  
+>>oneEuroFilter     欧元滤波
 
 # 开源协议
     遵循MIT开源协议
