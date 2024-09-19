@@ -1,0 +1,14 @@
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+.\robot\stream_buffer.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\robot\stream_buffer.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\string.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+.\robot\stream_buffer.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\robot\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+.\robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

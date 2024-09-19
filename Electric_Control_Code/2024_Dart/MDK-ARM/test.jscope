@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="C:\Users\86183\Desktop\2023_Omni\Omni\MDK-ARM\Omni\Omni.axf" />
+            <DataFile Name="..\chas_z_step.csv" />
+            <RawFile Name="..\Omni\y_speed_idf_1.csv" />
+            <Scope>
+                <Options TimeResolutionUs="200000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="chas_out[0]" Address="0x2000005C" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-2211" YMaxSampled="3014" YAvgSampled="434" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\Application\ModuleLayer\chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="chas_out[1]" Address="0x2000005E" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-1621" YMaxSampled="3212" YAvgSampled="877" Offset="6" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\Application\ModuleLayer\chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="chas_out[2]" Address="0x20000060" Type="short" TypeID="11" Size="2" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="-1863" YMaxSampled="3435" YAvgSampled="636" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\Application\ModuleLayer\chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="chas_out[3]" Address="0x20000062" Type="short" TypeID="11" Size="2" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-1869" YMaxSampled="2778" YAvgSampled="826" Offset="10" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\Application\ModuleLayer\chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="measure_x_speed" Address="0x200019D2" Type="short" TypeID="11" Size="2" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-34" YMaxSampled="26" YAvgSampled="0" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5000" MaxValue="10000" File="..\Application\ModuleLayer\chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="measure_y_speed" Address="0x200019D4" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="-68" YMaxSampled="39" YAvgSampled="0" Offset="14" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="5000" MaxValue="1000" File="..\Application\ModuleLayer\chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="measure_z_speed" Address="0x200019D6" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="-245" YMaxSampled="7" YAvgSampled="-4" Offset="16" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="5000" MaxValue="1000" File="..\Application\ModuleLayer\chassis.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

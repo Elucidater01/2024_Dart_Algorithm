@@ -1,0 +1,12 @@
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+.\robot\list.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+.\robot\list.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\robot\list.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\robot\list.o: ../Core/Inc/FreeRTOSConfig.h
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+.\robot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

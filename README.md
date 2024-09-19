@@ -13,9 +13,11 @@
 # 项目结构
 ## 电控部分：  
 >Electric_Control_Code  
->>vision_sensor.c	  电控与视觉通信交互及控制关键部分代码  
->>vision_sensor.h  
-  
+>>驱动层(Driver):此层主要与芯片进行较为底层的交互。封装HAL库函数，编写GPIO、串口、CAN等驱动。
+>>协议层(Protocol):连接驱动层和设备层的中间层，主要是通信协议的编写，如遥控器协议、裁判系统协议、CAN通信协议等。
+>>模块层(Module):多设备联动进一步实现完整的功能。分成了用于对位的轴和发射过程两个模块。Module则是对一些状态位标志位的处理。
+>>任务层(Task):程序执行的地方。
+
 ## 视觉部分：  
 >Vision_Code  
 >>katrin openvino  网络推理所需文件  
