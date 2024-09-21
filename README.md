@@ -24,11 +24,11 @@
 >>config           // 配置文件  
 >>capture         // 录包模块  
 >>detect           // 检测模块  
->>mouse          // 小屏幕辅助函数
->>sensors         // 传感器模块
->>threads         // 线程间模块
->>track             // 决策模块
->>utility           // 工具函数
+>>mouse          // 小屏幕辅助函数  
+>>sensors         // 传感器模块  
+>>threads         // 线程间模块  
+>>track             // 决策模块  
+>>utility           // 工具函数  
 
 
 # 声明
