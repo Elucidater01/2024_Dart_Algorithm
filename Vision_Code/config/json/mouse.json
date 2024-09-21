@@ -1,0 +1,15 @@
+{
+  "roi": {
+    "scale": 0.4
+  },
+
+  "wheel": {
+    "scale": 0.5,
+    "min": 0.05
+  },
+
+  "keep": {
+    "path": "../config/json/keep.json"
+  }
+
+}

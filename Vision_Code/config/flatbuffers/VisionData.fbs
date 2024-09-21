@@ -1,0 +1,8 @@
+namespace foxglove;
+
+table VisionData {
+    yaw_error: float;
+    target_status: uint8;
+}
+
+root_type VisionData;

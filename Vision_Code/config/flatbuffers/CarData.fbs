@@ -1,0 +1,12 @@
+include "Time.fbs";
+
+namespace foxglove;
+
+table CarData {
+    mode: uint8;
+    status: uint8;
+    number: uint8;
+    dune: uint8;
+}
+
+root_type CarData;

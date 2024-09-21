@@ -1,0 +1,38 @@
+{
+  "selection": {
+    "max_drop_frame": 1.0,
+    "limit_drop_frame": 1.5,
+
+    "min_found_frame": 1.0,
+    "limit_found_frame": 1.5
+  },
+
+  "euro": {
+    "min_cut_off": 0.5,
+    "beta": 0.5,
+    "d_cut_off": 0.5
+  },
+
+  "ktrack": {
+    "path": "../config/json/ktrack.json"
+  },
+
+  "choice": "82_84_88_105",
+  "group": {
+    "82_84_88_105": {
+      "0": 0,
+
+      "1": 5,
+
+      "2": -6,
+
+      "3": -4,
+
+      "4": -6
+    }
+  },
+
+  "rules": "to right: +, to left: -",
+
+  "death": -0
+}

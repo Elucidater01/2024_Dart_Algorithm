@@ -21,9 +21,15 @@
 
 ## 视觉部分：  
 >Vision_Code  
->>katrin openvino  网络推理所需文件  
->>mouse                屏幕辅助对位部分代码  
->>oneEuroFilter     欧元滤波
+>>config           // 配置文件  
+>>capture         // 录包模块  
+>>detect           // 检测模块  
+>>mouse          // 小屏幕辅助函数
+>>sensors         // 传感器模块
+>>threads         // 线程间模块
+>>track             // 决策模块
+>>utility           // 工具函数
+
 
 # 声明
 * 本次开源项目出自 深圳大学RobotPilots战队，作品仅用于技术交流，未经作者允许，不得作任何商业用途。  

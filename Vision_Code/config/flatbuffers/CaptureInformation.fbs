@@ -1,0 +1,12 @@
+include "CarData.fbs";
+include "VisionData.fbs";
+include "RawImage.fbs";
+namespace foxglove;
+
+table CaptureInformation {
+    cd: CarData;
+    vd: VisionData;
+    raw_image: RawImage;
+}
+
+root_type CaptureInformation;
