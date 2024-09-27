@@ -52,7 +52,6 @@
 .\robot\monitor_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 .\robot\monitor_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 .\robot\monitor_task.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
-.\robot\monitor_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\monitor_task.o: ..\Application\ModuleLayer\module.h
 .\robot\monitor_task.o: ../Application/DeviceLayer/device.h
 .\robot\monitor_task.o: ../Application/ConfigLayer/rp_config.h
@@ -76,7 +75,7 @@
 .\robot\monitor_task.o: ../Application/DriverLayer/drv_tim.h
 .\robot\monitor_task.o: ../Application/DriverLayer/drv_uart.h
 .\robot\monitor_task.o: ../Application/ProtocolLayer/rc_protocol.h
-.\robot\monitor_task.o: ../Application/DriverLayer/drv_adc.h
+.\robot\monitor_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\monitor_task.o: ../Application/DeviceLayer/device.h
 .\robot\monitor_task.o: ../Application/HardwareLayer/rm_motor.h
 .\robot\monitor_task.o: ../Application/AlgorithmLayer/pid.h

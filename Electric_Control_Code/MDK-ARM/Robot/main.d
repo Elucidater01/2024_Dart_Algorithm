@@ -63,7 +63,6 @@
 .\robot\main.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\robot\main.o: ../Application/DriverLayer/drv_can.h
 .\robot\main.o: ../Application/ConfigLayer/rp_driver_config.h
-.\robot\main.o: ../Application/DriverLayer/drv_flash.h
 .\robot\main.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\main.o: ../Application/DriverLayer/drv_tick.h
 .\robot\main.o: ../Application/DriverLayer/drv_tim.h
@@ -74,7 +73,7 @@
 .\robot\main.o: ../Application/ConfigLayer/rp_device_config.h
 .\robot\main.o: ../Application/ConfigLayer/rp_user_config.h
 .\robot\main.o: ../Application/DeviceLayer/Sensor/rc_sensor.h
-.\robot\main.o: ../Application/DriverLayer/drv_adc.h
+.\robot\main.o: ../Application/DriverLayer/drv_flash.h
 .\robot\main.o: ../Application/DeviceLayer/device.h
 .\robot\main.o: ../Application/DeviceLayer/Sensor/vision_sensor.h
 .\robot\main.o: ../Application/AlgorithmLayer/rp_math.h

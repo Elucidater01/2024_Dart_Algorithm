@@ -640,6 +640,11 @@
           <GroupName>Driver</GroupName>
           <Files>
             <File>
+              <FileName>drv_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Application\DriverLayer\drv_flash.c</FilePath>
+            </File>
+            <File>
               <FileName>drv_can.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Application\DriverLayer\drv_can.c</FilePath>
@@ -658,11 +663,6 @@
               <FileName>drv_uart.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Application\DriverLayer\drv_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>drv_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Application\DriverLayer\drv_flash.c</FilePath>
             </File>
             <File>
               <FileName>driver.c</FileName>

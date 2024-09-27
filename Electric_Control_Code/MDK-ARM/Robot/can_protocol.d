@@ -41,7 +41,6 @@
 .\robot\can_protocol.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\robot\can_protocol.o: ../Application/DriverLayer/drv_can.h
 .\robot\can_protocol.o: ../Application/ConfigLayer/rp_driver_config.h
-.\robot\can_protocol.o: ../Application/DriverLayer/drv_flash.h
 .\robot\can_protocol.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\can_protocol.o: ../Core/Inc/main.h
 .\robot\can_protocol.o: ../Application/DriverLayer/drv_tick.h
@@ -53,7 +52,7 @@
 .\robot\can_protocol.o: ../Application/ConfigLayer/rp_device_config.h
 .\robot\can_protocol.o: ../Application/ConfigLayer/rp_user_config.h
 .\robot\can_protocol.o: ../Application/DeviceLayer/Sensor/rc_sensor.h
-.\robot\can_protocol.o: ../Application/DriverLayer/drv_adc.h
+.\robot\can_protocol.o: ../Application/DriverLayer/drv_flash.h
 .\robot\can_protocol.o: ../Application/DeviceLayer/device.h
 .\robot\can_protocol.o: ../Application/DeviceLayer/Sensor/vision_sensor.h
 .\robot\can_protocol.o: ../Application/AlgorithmLayer/rp_math.h

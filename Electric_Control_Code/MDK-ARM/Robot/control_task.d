@@ -57,7 +57,6 @@
 .\robot\control_task.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\robot\control_task.o: ../Application/DriverLayer/drv_can.h
 .\robot\control_task.o: ../Application/ConfigLayer/rp_driver_config.h
-.\robot\control_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\control_task.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\control_task.o: ../Application/DriverLayer/drv_tick.h
 .\robot\control_task.o: ../Application/DriverLayer/drv_tim.h
@@ -68,7 +67,7 @@
 .\robot\control_task.o: ../Application/ConfigLayer/rp_device_config.h
 .\robot\control_task.o: ../Application/ConfigLayer/rp_user_config.h
 .\robot\control_task.o: ../Application/DeviceLayer/Sensor/rc_sensor.h
-.\robot\control_task.o: ../Application/DriverLayer/drv_adc.h
+.\robot\control_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\control_task.o: ../Application/DeviceLayer/device.h
 .\robot\control_task.o: ../Application/DeviceLayer/Sensor/vision_sensor.h
 .\robot\control_task.o: ../Application/AlgorithmLayer/rp_math.h

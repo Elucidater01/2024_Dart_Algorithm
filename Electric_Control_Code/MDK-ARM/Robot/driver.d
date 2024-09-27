@@ -40,7 +40,6 @@
 .\robot\driver.o: G:\RP2023\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\robot\driver.o: ..\Application\DriverLayer\drv_can.h
 .\robot\driver.o: ../Application/ConfigLayer/rp_driver_config.h
-.\robot\driver.o: ..\Application\DriverLayer\drv_flash.h
 .\robot\driver.o: ..\Application\DriverLayer\drv_gpio.h
 .\robot\driver.o: ../Core/Inc/main.h
 .\robot\driver.o: ..\Application\DriverLayer\drv_tick.h
@@ -52,4 +51,4 @@
 .\robot\driver.o: ../Application/ConfigLayer/rp_device_config.h
 .\robot\driver.o: ../Application/ConfigLayer/rp_user_config.h
 .\robot\driver.o: ../Application/DeviceLayer/Sensor/rc_sensor.h
-.\robot\driver.o: ..\Application\DriverLayer\drv_adc.h
+.\robot\driver.o: ..\Application\DriverLayer\drv_flash.h

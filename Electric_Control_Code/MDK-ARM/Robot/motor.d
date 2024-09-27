@@ -46,7 +46,6 @@
 .\robot\motor.o: ../Application/ProtocolLayer/can_protocol.h
 .\robot\motor.o: ../Application/DriverLayer/driver.h
 .\robot\motor.o: ../Application/DriverLayer/drv_can.h
-.\robot\motor.o: ../Application/DriverLayer/drv_flash.h
 .\robot\motor.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\motor.o: ../Core/Inc/main.h
 .\robot\motor.o: ../Application/DriverLayer/drv_tick.h
@@ -54,7 +53,7 @@
 .\robot\motor.o: ../Application/DriverLayer/drv_uart.h
 .\robot\motor.o: ../Application/ProtocolLayer/rc_protocol.h
 .\robot\motor.o: ../Application/DeviceLayer/Sensor/rc_sensor.h
-.\robot\motor.o: ../Application/DriverLayer/drv_adc.h
+.\robot\motor.o: ../Application/DriverLayer/drv_flash.h
 .\robot\motor.o: ../Application/DeviceLayer/device.h
 .\robot\motor.o: ../Application/DeviceLayer/Sensor/vision_sensor.h
 .\robot\motor.o: ../Application/AlgorithmLayer/rp_math.h

@@ -55,14 +55,13 @@
 .\robot\axis.o: ../Application/ProtocolLayer/can_protocol.h
 .\robot\axis.o: ../Application/DriverLayer/driver.h
 .\robot\axis.o: ../Application/DriverLayer/drv_can.h
-.\robot\axis.o: ../Application/DriverLayer/drv_flash.h
 .\robot\axis.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\axis.o: ../Core/Inc/main.h
 .\robot\axis.o: ../Application/DriverLayer/drv_tick.h
 .\robot\axis.o: ../Application/DriverLayer/drv_tim.h
 .\robot\axis.o: ../Application/DriverLayer/drv_uart.h
 .\robot\axis.o: ../Application/ProtocolLayer/rc_protocol.h
-.\robot\axis.o: ../Application/DriverLayer/drv_adc.h
+.\robot\axis.o: ../Application/DriverLayer/drv_flash.h
 .\robot\axis.o: ../Application/DeviceLayer/device.h
 .\robot\axis.o: ../Application/HardwareLayer/rm_motor.h
 .\robot\axis.o: ../Application/AlgorithmLayer/pid.h

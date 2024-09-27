@@ -70,13 +70,12 @@
 .\robot\community_task.o: ../Application/ProtocolLayer/can_protocol.h
 .\robot\community_task.o: ../Application/DriverLayer/driver.h
 .\robot\community_task.o: ../Application/DriverLayer/drv_can.h
-.\robot\community_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\community_task.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\community_task.o: ../Application/DriverLayer/drv_tick.h
 .\robot\community_task.o: ../Application/DriverLayer/drv_tim.h
 .\robot\community_task.o: ../Application/DriverLayer/drv_uart.h
 .\robot\community_task.o: ../Application/ProtocolLayer/rc_protocol.h
-.\robot\community_task.o: ../Application/DriverLayer/drv_adc.h
+.\robot\community_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\community_task.o: ../Application/DeviceLayer/device.h
 .\robot\community_task.o: ../Application/HardwareLayer/rm_motor.h
 .\robot\community_task.o: ../Application/AlgorithmLayer/pid.h

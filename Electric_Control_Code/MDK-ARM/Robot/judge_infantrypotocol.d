@@ -59,11 +59,10 @@
 .\robot\judge_infantrypotocol.o: ../Application/ProtocolLayer/can_protocol.h
 .\robot\judge_infantrypotocol.o: ../Application/DriverLayer/driver.h
 .\robot\judge_infantrypotocol.o: ../Application/DriverLayer/drv_can.h
-.\robot\judge_infantrypotocol.o: ../Application/DriverLayer/drv_flash.h
 .\robot\judge_infantrypotocol.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\judge_infantrypotocol.o: ../Application/DriverLayer/drv_tick.h
 .\robot\judge_infantrypotocol.o: ../Application/DriverLayer/drv_tim.h
-.\robot\judge_infantrypotocol.o: ../Application/DriverLayer/drv_adc.h
+.\robot\judge_infantrypotocol.o: ../Application/DriverLayer/drv_flash.h
 .\robot\judge_infantrypotocol.o: ../Application/DeviceLayer/device.h
 .\robot\judge_infantrypotocol.o: ../Application/HardwareLayer/rm_motor.h
 .\robot\judge_infantrypotocol.o: ../Application/AlgorithmLayer/pid.h

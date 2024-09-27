@@ -54,14 +54,13 @@
 .\robot\launcher.o: ../Application/ProtocolLayer/can_protocol.h
 .\robot\launcher.o: ../Application/DriverLayer/driver.h
 .\robot\launcher.o: ../Application/DriverLayer/drv_can.h
-.\robot\launcher.o: ../Application/DriverLayer/drv_flash.h
 .\robot\launcher.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\launcher.o: ../Core/Inc/main.h
 .\robot\launcher.o: ../Application/DriverLayer/drv_tick.h
 .\robot\launcher.o: ../Application/DriverLayer/drv_tim.h
 .\robot\launcher.o: ../Application/DriverLayer/drv_uart.h
 .\robot\launcher.o: ../Application/ProtocolLayer/rc_protocol.h
-.\robot\launcher.o: ../Application/DriverLayer/drv_adc.h
+.\robot\launcher.o: ../Application/DriverLayer/drv_flash.h
 .\robot\launcher.o: ../Application/DeviceLayer/device.h
 .\robot\launcher.o: ../Application/HardwareLayer/rm_motor.h
 .\robot\launcher.o: ../Application/AlgorithmLayer/pid.h

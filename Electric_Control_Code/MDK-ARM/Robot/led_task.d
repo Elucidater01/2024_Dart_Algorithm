@@ -70,13 +70,12 @@
 .\robot\led_task.o: ../Application/ProtocolLayer/can_protocol.h
 .\robot\led_task.o: ../Application/DriverLayer/driver.h
 .\robot\led_task.o: ../Application/DriverLayer/drv_can.h
-.\robot\led_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\led_task.o: ../Application/DriverLayer/drv_gpio.h
 .\robot\led_task.o: ../Application/DriverLayer/drv_tick.h
 .\robot\led_task.o: ../Application/DriverLayer/drv_tim.h
 .\robot\led_task.o: ../Application/DriverLayer/drv_uart.h
 .\robot\led_task.o: ../Application/ProtocolLayer/rc_protocol.h
-.\robot\led_task.o: ../Application/DriverLayer/drv_adc.h
+.\robot\led_task.o: ../Application/DriverLayer/drv_flash.h
 .\robot\led_task.o: ../Application/DeviceLayer/device.h
 .\robot\led_task.o: ../Application/HardwareLayer/rm_motor.h
 .\robot\led_task.o: ../Application/AlgorithmLayer/pid.h
