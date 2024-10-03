@@ -132,12 +132,7 @@ typedef __packed struct
 	uint16_t blue_outpost_HP;	// 蓝方前哨站血量
 	uint16_t blue_base_HP;		// 蓝方基地血量	
 } ext_game_robot_HP_t; //LEN_GAME_ROBOT_HP  表3-3
-///* ID: 0x0004 	Byte:	3	飞镖发射状态 */
-//typedef __packed struct
-//{
-//	uint8_t dart_belong;
-//	uint16_t stage_remaining_time;
-//} ext_dart_status_t;//LEN_DART_STATUS   表3-4
+
 /* ID: 0x0005 	Byte:	11	人工智能挑战赛加成与惩罚区状态 */
 typedef __packed struct
 {
@@ -334,31 +329,14 @@ typedef struct judge_info_struct {
 	ext_game_status_t 							game_status;				// 0x0001
 	ext_game_result_t 							game_result;				// 0x0002
 	ext_game_robot_HP_t 						game_robot_HP;			// 0x0003
-//	ext_dart_status_t								dart_status;				// 0x0004
-//	ext_ICRA_buff_debuff_zone_status_t	ICRA_buff;
-	
-//	ext_event_data_t								event_data;					// 0x0101
-//	ext_supply_projectile_action_t	supply_projectile_action;		// 0x0102
-	//ext_supply_projectile_booking_t supply_projectile_booking;// 0x0103
-//	ext_referee_warning_t						referee_warning;		// 0x0104
 	dart_info_t			                	dart_info;// 0x0105
 	
 	ext_game_robot_status_t					game_robot_status;	// 0x0201
-//	ext_power_heat_data_t						power_heat_data;		// 0x0202
-//	ext_game_robot_pos_t						game_robot_pos;			// 0x0203
-//	ext_buff_t											buff;								// 0x0204
-//	ext_aerial_robot_energy_t				aerial_robot_energy;// 0x0205
-//	ext_robot_hurt_t								robot_hurt;					// 0x0206
-//	ext_shoot_data_t								shoot_data;					// 0x0207
-//	ext_bullet_remaining_t					bullet_remaining;		// 0x0208	
-//	ext_rfid_status_t								rfid_status;				// 0x0209	
+
 	ext_dart_client_cmd_t           dart_client;        // 0x020A
 	
-//	ext_interact_id_t								ids;								//与本机交互的机器人id
-	
 	uint16_t                        self_client;        //本机客户端
-	//????????????????????????????????????
-//	ext_sentry_t                    sentry_Info_rescue; //哨兵提供的信息
+
 	
 	bool	 		data_valid;	// 数据有效性
 	bool			err_cnt;
@@ -678,36 +656,6 @@ typedef struct judge_sensor_struct {
 	dev_errno_t				errno;
 	dev_id_t					id;
 } judge_sensor_t;
-
-void Client_graphic_Init(void);
-void Client_graphic_delete_update(uint8_t delete_layer);//删除图层信息
-void Client_graphic_Info_update(void);
-
-
-void Client_aim_update(void);//准心
-void Client_supercapacitor_update(void);//超级电容
-void Client_gimbal_angle_update(void);//吊射角度
-void Client_bullet_int_update(void);//弹丸信息
-void  car_radar_sentry_communicate(void);
-
-//英雄
-void Client_aim_line(void);//
-void _high_aim_(void);
-void _lowshort_aim_2(void);
-void _lowshort_aim_3(void);
-void _lowshortstem_aim_4(void);
-void _lowlong_aim_(void);
-
-//工程
-//void engineer_state(void);
-void engineer_mine(void);
-void Client_engineer_condition(void);
-void Client_engineer_Redgreen(void);
-void Client_2engineer_Redgreen(void);
-void Client_string_taskstate(void);
-//雷达
-void radar_runing(void);
-void radar_Info_store(void);
 
 void USART5_rxDataHandler(uint8_t *rxBuf);
 
