@@ -849,12 +849,11 @@ interwork --depend=.\robot\startup_stm32f407xx.d -o.\robot\startup_stm32f407xx.
 ARM Macro Assembler    Page 14 
 
 
-o -I../Core/Inc -I.\RTE\_Robot -IG:\RP2023\keil\pack\ARM\CMSIS-DSP\1.15.0\Inclu
-de -IG:\RP2023\keil\pack\ARM\CMSIS-DSP\1.15.0\PrivateInclude -IG:\RP2023\keil\p
-ack\ARM\CMSIS\5.9.0\CMSIS\Core\Include -IG:\RP2023\keil\pack\Keil\STM32F4xx_DFP
-\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__UVISION_VERSIO
-N SETA 538" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --prede
-fine="_RTE_ SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
+o -I../Core/Inc -I.\RTE\_Robot -IG:\RP2023\keil\pack\ARM\CMSIS\5.9.0\CMSIS\Core
+\Include -IG:\RP2023\keil\pack\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\S
+T\STM32F4xx\Include --predefine="__UVISION_VERSION SETA 538" --predefine="_RTE_
+ SETA 1" --predefine="STM32F407xx SETA 1" --predefine="_RTE_ SETA 1" --list=sta
+rtup_stm32f407xx.lst startup_stm32f407xx.s
 
 
 

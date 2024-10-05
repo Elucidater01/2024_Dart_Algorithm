@@ -277,6 +277,4 @@ void USART2_rxDataHandler(uint8_t *rxBuf)
 	rc_sensor.update(&rc_sensor, rxBuf);
 	rc_sensor.check(&rc_sensor);
 	
-	rc_interrupt_update(&rc_sensor);
-	
 }
